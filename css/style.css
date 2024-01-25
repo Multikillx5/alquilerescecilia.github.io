@@ -107,3 +107,7 @@ main {
 footer {
     background-color: #6e6e6e;
 }
+
+.descripcion {
+    width: 300px;
+}
