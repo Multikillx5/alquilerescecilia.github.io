@@ -8,7 +8,9 @@ header {
     background-color: #409c91;
 }
 
-
+.title {
+    font-size: 22px;
+}
 
 h1 {
     font-size: 20px;
@@ -30,6 +32,9 @@ ul {
 
 
 /* --------------------- ENLACES INICIO ---------------------------------- */
+.normal-anchor {
+    color: black;
+}
 
 a {
 
@@ -78,7 +83,6 @@ body {
 
 /* -------------------- IMAGENES DE LA GALERIA FIN --------------------------------*/
 
-
 .logo {
     width: 75px;
     height: auto;
@@ -91,6 +95,13 @@ main {
 .div-main {
     padding: 15px 20px;
     box-shadow: 11px 10px 9px 1px rgba(0,0,0,0.65);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 17px 17px 17px 17px;
+}
+
+.div-inner {
+    padding: 15px 20px;
     border-style: solid;
     border-width: 2px;
     border-radius: 17px 17px 17px 17px;
